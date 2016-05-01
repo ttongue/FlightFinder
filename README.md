@@ -10,11 +10,11 @@ To launch this skill, say "ask Flight Finder find flights going to ____________"
 
 ## Comments
 
-#### The index.js file needs to have the APP_ID variable defined with the application id supplied in the JSON post to the lamba function. 
+The index.js file needs to have the APP_ID variable defined with the application id supplied in the JSON post to the lamba function. 
 
 ## To Do:
 
-#### Quite a bit, including adding code to convert cities to preferred airport code (ie: convert the destination choice 'San Francisco' to 'SFO'), and then go get prices for the travel dates. It was only a 4 hour hack after all. 
+Quite a bit, including adding code to convert cities to preferred airport code (ie: convert the destination choice 'San Francisco' to 'SFO'), and then go get prices for the travel dates. It was only a 4 hour hack after all. 
 
 
 
