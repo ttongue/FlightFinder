@@ -1,0 +1,53 @@
+DestinationIntent I want to fly to {Destination}
+DestinationIntent I fly to {Destination}
+DestinationIntent I am flying to {Destination}
+DestinationIntent I will fly to {Destination}
+DestinationIntent I want to go to {Destination}
+DestinationIntent I want to travel to {Destination}
+DestinationIntent Find flights going to {Destination}
+DestinationIntent Find a flight to {Destination}
+DestinationIntent Find flights to {Destination}
+DestinationIntent Find me flights to {Destination}
+DestinationIntent Find me flights going to {Destination}
+DestinationIntent Find me a flight going to {Destination}
+DestinationIntent Get me a flight to {Destination}
+DestinationIntent Get me to {Destination}
+DestinationIntent Travel to {Destination}
+DestinationIntent I'm going to {Destination}
+DestinationIntent I'm flying to {Destination}
+EmbarkIntent {EmbarkDate}
+EmbarkIntent Let's go {EmbarkDate}
+EmbarkIntent Go {EmbarkDate}
+EmbarkIntent Leave {EmbarkDate}
+EmbarkIntent Leaving {EmbarkDate}
+EmbarkIntent Leaving on {EmbarkDate}
+EmbarkIntent Going on {EmbarkDate}
+EmbarkIntent I'm going {EmbarkDate}
+EmbarkIntent I'm going on {EmbarkDate}
+EmbarkIntent I'm travelling on {EmbarkDate}
+EmbarkIntent I want to travel on {EmbarkDate}
+EmbarkIntent I want to leave on {EmbarkDate}
+EmbarkIntent I want to leave {EmbarkDate}
+EmbarkIntent I want to go {EmbarkDate}
+EmbarkIntent I want to go on {EmbarkDate}
+EmbarkIntent I would like to go on {EmbarkDate}
+EmbarkIntent I'd like to go on {EmbarkDate}
+EmbarkIntent I want to go on {EmbarkDate}
+DisembarkIntent Go back {DisembarkDate}
+DisembarkIntent Get back {DisembarkDate}
+DisembarkIntent I want to get back on {DisembarkDate}
+DisembarkIntent I want to return {DisembarkDate}
+DisembarkIntent Get me back on {DisembarkDate}
+DisembarkIntent Get me back by {DisembarkDate}
+DisembarkIntent I want to come home by {DisembarkDate}
+DisembarkIntent I want to come home on {DisembarkDate}
+DisembarkIntent I want to get home by {DisembarkDate}
+DisembarkIntent I want to go home on {DisembarkDate}
+DisembarkIntent I want to go back home on {DisembarkDate}
+DisembarkIntent I'm going home on {DisembarkDate}
+DisembarkIntent I'm going back home on {DisembarkDate}
+DisembarkIntent I'm going back on {DisembarkDate}
+DisembarkIntent I'm returning home {DisembarkDate}
+DisembarkIntent Return on {DisembarkDate}
+DisembarkIntent Return by {DisembarkDate}
+DisembarkIntent Return {DisembarkDate}

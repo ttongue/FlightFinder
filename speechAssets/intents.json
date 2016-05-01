@@ -1,0 +1,43 @@
+{
+	  "intents": [
+        { 
+	      "intent": "DestinationIntent",
+          "slots": [
+        	{
+          		"name": "Destination",
+          		"type": "AMAZON.US_CITY"
+        	}
+      		]
+	    },
+
+	    { 
+	      "intent": "EmbarkIntent",
+          "slots": [
+            {
+                "name": "EmbarkDate",
+                "type": "AMAZON.DATE"
+            },
+            {
+                "name": "DisembarkDate",
+                "type": "AMAZON.DATE"
+            }
+             
+      		]
+	    },
+
+	     
+	    {
+	      "intent": "AMAZON.HelpIntent"
+	    },
+
+	    {
+	      "intent": "AMAZON.StopIntent"
+	    },
+
+	    {
+	      "intent": "AMAZON.CancelIntent"
+	    }
+
+	  ]
+
+	 }
