@@ -63,13 +63,20 @@ FlightFinder.prototype.eventHandlers.onSessionEnded = function (sessionEndedRequ
 };
 
 FlightFinder.prototype.intentHandlers = {
- 
+    // Handle the initial declaration of the destination, gathering the slot value and storing 
+    // it in the session attributes for use in subsequent interactions.
     "DestinationIntent": function (intent, session, response) {
         selectedDestination=intent.slots.Destination.value;
         session.attributes.selectedDestination=selectedDestination;
         handleDestinationRequest(response);
     },
 
+    // Handle the departure and return dates. Since the utterances for declaring both departure and
+    // return are similar, we make an assumption that if the embarkation date is already set in the
+    // session, then we must be getting the return date with this intent instead.
+
+    // TO DO: Need to improve this flow so you can declare the return date and the departure date 
+    // independently.
     "EmbarkIntent": function (intent, session, response) {
         selectedDestination=session.attributes.selectedDestination;
         if (session.attributes.selectedEmbarkDate != null) {
@@ -88,6 +95,7 @@ FlightFinder.prototype.intentHandlers = {
         }
     },
 
+    
 
     "AMAZON.HelpIntent": function (intent, session, response) {
         response.ask("You can ask Flight Finder find flights going to _________, or, you can say exit... What can I help you with?", "What can I help you with?");

@@ -33,21 +33,21 @@ EmbarkIntent I want to go on {EmbarkDate}
 EmbarkIntent I would like to go on {EmbarkDate}
 EmbarkIntent I'd like to go on {EmbarkDate}
 EmbarkIntent I want to go on {EmbarkDate}
-DisembarkIntent Go back {DisembarkDate}
-DisembarkIntent Get back {DisembarkDate}
-DisembarkIntent I want to get back on {DisembarkDate}
-DisembarkIntent I want to return {DisembarkDate}
-DisembarkIntent Get me back on {DisembarkDate}
-DisembarkIntent Get me back by {DisembarkDate}
-DisembarkIntent I want to come home by {DisembarkDate}
-DisembarkIntent I want to come home on {DisembarkDate}
-DisembarkIntent I want to get home by {DisembarkDate}
-DisembarkIntent I want to go home on {DisembarkDate}
-DisembarkIntent I want to go back home on {DisembarkDate}
-DisembarkIntent I'm going home on {DisembarkDate}
-DisembarkIntent I'm going back home on {DisembarkDate}
-DisembarkIntent I'm going back on {DisembarkDate}
-DisembarkIntent I'm returning home {DisembarkDate}
-DisembarkIntent Return on {DisembarkDate}
-DisembarkIntent Return by {DisembarkDate}
-DisembarkIntent Return {DisembarkDate}
+EmbarkIntent Go back {DisembarkDate}
+EmbarkIntent Get back {DisembarkDate}
+EmbarkIntent I want to get back on {DisembarkDate}
+EmbarkIntent I want to return {DisembarkDate}
+EmbarkIntent Get me back on {DisembarkDate}
+EmbarkIntent Get me back by {DisembarkDate}
+EmbarkIntent I want to come home by {DisembarkDate}
+EmbarkIntent I want to come home on {DisembarkDate}
+EmbarkIntent I want to get home by {DisembarkDate}
+EmbarkIntent I want to go home on {DisembarkDate}
+EmbarkIntent I want to go back home on {DisembarkDate}
+EmbarkIntent I'm going home on {DisembarkDate}
+EmbarkIntent I'm going back home on {DisembarkDate}
+EmbarkIntent I'm going back on {DisembarkDate}
+EmbarkIntent I'm returning home {DisembarkDate}
+EmbarkIntent Return on {DisembarkDate}
+EmbarkIntent Return by {DisembarkDate}
+EmbarkIntent Return {DisembarkDate}
